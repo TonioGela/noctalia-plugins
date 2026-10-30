@@ -1,0 +1,17 @@
+id = "toniogela/comma"
+name = "Comma"
+version = "0.1.0"
+plugin_api = 43
+author = "toniogela"
+license = "MIT"
+icon = "terminal"
+description = "Launch GUI apps from nixpkgs via comma, without installing them"
+tags = ["launcher", "utility", "nixos"]
+dependencies = [",", "grep"]
+
+[[launcher_provider]]
+id = "run"
+entry = "launcher.luau"
+prefix = ","
+glyph = "terminal"
+include_in_global_search = true

@@ -1,0 +1,14 @@
+# Index Noctalia reads from a git plugin source: one [[plugin]] row per plugin
+# directory. Keep id, version, plugin_api and the metadata in sync with
+# <dir>/plugin.toml on every release.
+
+[[plugin]]
+id = "toniogela/comma"
+name = "Comma"
+version = "0.1.0"
+author = "toniogela"
+license = "MIT"
+icon = "terminal"
+description = "Launch GUI apps from nixpkgs via comma, without installing them"
+plugin_api = 43
+tags = ["launcher", "utility", "nixos"]
